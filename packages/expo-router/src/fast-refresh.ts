@@ -1,5 +1,5 @@
 declare global {
-  var __METRO_GLOBAL_PREFIX__: string | undefined;
+  const __METRO_GLOBAL_PREFIX__: string | undefined;
 }
 /**
  * This is a hack for Expo Router to support Fast Refresh on _layout files
