@@ -37,6 +37,10 @@ public final class FileSystemNextModule: Module {
         file.create()
       }
 
+      Function("copy") { (file, to: FileSystemNextPath) in
+        try file.copy(to: to)
+      }
+
       Property("path") { file in
         return file.url.absoluteString
       }
@@ -62,6 +66,10 @@ public final class FileSystemNextModule: Module {
 
       Function("create") { directory in
         try directory.create()
+      }
+      
+      Function("copy") { (directory, to: FileSystemNextPath) in
+        try directory.copy(to: to)
       }
 
       Property("path") { directory in
