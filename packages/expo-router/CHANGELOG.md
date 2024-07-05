@@ -11,6 +11,7 @@
 ### 🐛 Bug fixes
 
 - Fix server hosting root html in a group with a layout. ([#29948](https://github.com/expo/expo/pull/29948) by [@EvanBacon](https://github.com/EvanBacon))
+- Fix creating/parsing URLs with array search params.
 
 ### 💡 Others
 
