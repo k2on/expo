@@ -1,12 +1,12 @@
 // Copyright 2016-present 650 Industries. All rights reserved.
 
-#import <EXLocation/EXLocation.h>
-#import <EXLocation/EXLocationDelegate.h>
-#import <EXLocation/EXLocationTaskConsumer.h>
-#import <EXLocation/EXGeofencingTaskConsumer.h>
-#import <EXLocation/EXLocationPermissionRequester.h>
-#import <EXLocation/EXForegroundPermissionRequester.h>
-#import <EXLocation/EXBackgroundLocationPermissionRequester.h>
+#import <ExpoLocation/EXLocation.h>
+#import <ExpoLocation/EXLocationDelegate.h>
+#import <ExpoLocation/EXLocationTaskConsumer.h>
+#import <ExpoLocation/EXGeofencingTaskConsumer.h>
+#import <ExpoLocation/EXLocationPermissionRequester.h>
+#import <ExpoLocation/EXForegroundPermissionRequester.h>
+#import <ExpoLocation/EXBackgroundLocationPermissionRequester.h>
 
 #import <CoreLocation/CLLocationManager.h>
 #import <CoreLocation/CLLocationManagerDelegate.h>
