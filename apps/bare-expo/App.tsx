@@ -9,7 +9,7 @@ try {
   // do nothing
 }
 
-Splashscreen.installSplashScreen({ duration: 4000 });
+Splashscreen.setOptions({ duration: 800 });
 
 const loadAssetsAsync =
   optionalRequire(() => require('native-component-list/src/utilities/loadAssetsAsync')) ??
